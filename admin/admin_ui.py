@@ -67,7 +67,6 @@ class MyApp(QWidget):
 
         self.button_layout = QHBoxLayout()
         self.button_layout.addWidget(self.insert_btn)
-        self.button_layout.addWidget(self.remove_btn)
         self.parking_car_layout.addLayout( self.button_layout )
 
         return self.parking_car_layout
