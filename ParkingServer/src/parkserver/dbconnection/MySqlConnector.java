@@ -20,7 +20,7 @@ public class MySqlConnector {
 		String driver = "com.mysql.cj.jdbc.Driver";
 		String url = "jdbc:mysql://localhost:3306/parkingdb?characterEncoding=UTF-8&serverTimezone=UTC";
 		String id = "root";
-		String pw = "ans619092rkd";
+		String pw = "****";
 		Connection conn = null;
 		try {
 			Class.forName(driver);
